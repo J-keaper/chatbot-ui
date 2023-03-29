@@ -311,19 +311,45 @@ export const ChatInput: FC<Props> = ({
           )}
         </div>
       </div>
-      <div className="px-3 pt-2 pb-3 text-center text-[12px] text-black/50 dark:text-white/50 md:px-4 md:pt-3 md:pb-6">
+      <div className="px-3 pt-2 text-center text-[12px] text-black/50 dark:text-white/50">
+        <a
+          href="https://xiaobot.net/p/aiyanjiu?refer=f96f6426-e584-44e8-bda8-c340f35fcb14"
+          target="_blank"
+          rel="noreferrer"
+          className="underline"
+        >
+          AI项目分享
+        </a>
+        <span>&nbsp;&nbsp;</span>|<span>&nbsp;&nbsp;</span>
+        <a
+          href="https://xiaobot.net/p/chat?refer=f96f6426-e584-44e8-bda8-c340f35fcb14"
+          target="_blank"
+          rel="noreferrer"
+          className="underline"
+        >
+          赚钱案例
+        </a>
+        <span>&nbsp;&nbsp;</span>|<span>&nbsp;&nbsp;</span>
+        <a
+          href="https://xiaobot.net/p/MJ2023?refer=f96f6426-e584-44e8-bda8-c340f35fcb14"
+          target="_blank"
+          rel="noreferrer"
+          className="underline"
+        >
+          Midjourney创意库
+        </a>
+      </div>
+      <div className="px-3 pb-3 text-center text-[12px] text-black/50 dark:text-white/50 md:px-4 md:pt-2 md:pb-6">
+        本项目基于开源项目{' '}
         <a
           href="https://github.com/mckaywrigley/chatbot-ui"
           target="_blank"
           rel="noreferrer"
           className="underline"
         >
-          ChatBot UI
-        </a>
-        .{' '}
-        {t(
-          "Chatbot UI is an advanced chatbot kit for OpenAI's chat models aiming to mimic ChatGPT's interface and functionality.",
-        )}
+          chatbot-ui
+        </a>{' '}
+        搭建
       </div>
     </div>
   );
